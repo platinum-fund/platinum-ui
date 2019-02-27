@@ -13,23 +13,23 @@ const style = `
 		}
 		
 		.card__item {
-      display: block;
-      padding: 1em 0.7em;
-      filter: grayscale(100%);
-      opacity: 0.48;
-      transition: filter 0.1s, opacity 0.1s;
-    }
+		  display: block;
+		  padding: 1em 0.7em;
+		  filter: grayscale(100%);
+		  opacity: 0.48;
+		  transition: filter 0.1s, opacity 0.1s;
+		}
   
-    .card__item:hover {
-      filter: unset;
-      opacity: 1;
-    }
+		.card__item:hover {
+		  filter: unset;
+		  opacity: 1;
+		}
     
-    .card__item-image {
-      display: block;
-      max-width: 11.6em;
-      max-height: 2.8em;
-    }
+		.card__item-image {
+		  display: block;
+		  max-width: 11.6em;
+		  max-height: 2.8em;
+		}
   </style>
 `
 

@@ -21,6 +21,11 @@
     "url": "https://github.com/platinum-fund/platinum-ui/issues"
   },
   "homepage": "https://github.com/platinum-fund/platinum-ui#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "linters": {
       "*.js": [

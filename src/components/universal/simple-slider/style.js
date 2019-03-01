@@ -1,4 +1,4 @@
-import arrow from './icons/slider-arrow-left.svg'
+import arrow from './icons/arrow_black.svg'
 
 const style = `
 	<style>
@@ -18,7 +18,7 @@ const style = `
       margin-bottom: 1rem;
       width: 100%;
       height: 1px;
-      background: rgba(255, 255, 255, 0.25);
+      background: rgba(0,0,0,0.25);
       border-radius: 0.5px;
     }
   
@@ -27,7 +27,7 @@ const style = `
       left: 0;
       height: 100%;
       width: 0;
-      background: #fff;
+      background: #000;
       border-radius: 0.5px;
       transition: width 0.2s;
     }

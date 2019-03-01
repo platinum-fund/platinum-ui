@@ -4,7 +4,6 @@ const style = `
 	<style>
     .slider {
       position: relative;
-      width: 36.8rem;
       max-width: 90vw;
     }
   

@@ -1,5 +1,5 @@
 const style = `
-	<style>  
+  <style>  
     .token-list {
       display: flex;
       flex-wrap: wrap;

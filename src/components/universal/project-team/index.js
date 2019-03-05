@@ -1,6 +1,6 @@
 import template from './template'
 
-class TeamSlider extends HTMLElement {
+class ProjectTeam extends HTMLElement {
   constructor() {
     super()
     const shadow = this.attachShadow({ mode: 'open' })
@@ -8,4 +8,4 @@ class TeamSlider extends HTMLElement {
   }
 }
 
-window.customElements.define('team-slider', TeamSlider)
+window.customElements.define('project-team', ProjectTeam)

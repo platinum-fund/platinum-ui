@@ -1,10 +1,5 @@
 const style = `
-  <style>  
-    .slide {
-      display: flex;
-      justify-content: center;
-    }
-    
+  <style>     
     .team {
       display: flex;
       flex-wrap: wrap;

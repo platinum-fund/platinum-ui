@@ -1,4 +1,3 @@
-import '../simple-slider'
 import teamList from './content'
 import socialIcons from './icons/socials'
 import flagIcons from './icons/flags'

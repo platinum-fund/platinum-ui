@@ -34,7 +34,7 @@ const style = `
     .member__name {
       margin: 0;
       margin-bottom: 0.33em;
-      font-family: inherit, sans-serif;
+      font-family: 'Ubuntu', inherit;
       font-style: normal;
       font-weight: 500;
       line-height: normal;
@@ -46,7 +46,7 @@ const style = `
     .member__position {
       margin: 0;
       margin-bottom: auto;
-      font-family: inherit, sans-serif;
+      font-family: 'Poppins', inherit;
       font-style: normal;
       font-weight: 300;
       line-height: normal;

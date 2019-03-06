@@ -1,3 +1,4 @@
+import '../show-more'
 import teamList from './content'
 import socialIcons from './icons/socials'
 import flagIcons from './icons/flags'
@@ -43,7 +44,14 @@ const team = list => `
 `
 
 const markup = `
-  ${team(teamList)}
+<show-more>
+  <div slot="preview">
+    ${team(teamList.slice(0, 12))}
+  </div>
+  <div slot="rest">
+    ${team(teamList.slice(12))}
+  </div>
+</show-more>
 `
 
 export default markup

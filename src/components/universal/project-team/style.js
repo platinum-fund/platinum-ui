@@ -1,5 +1,11 @@
 const style = `
   <style>     
+    show-more {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+    
     .team {
       display: flex;
       flex-wrap: wrap;
@@ -14,7 +20,8 @@ const style = `
       flex-direction: column;
       align-content: center;
       padding: 1.8em 2em 1em;
-      width: 25em;
+      flex: 1;
+      min-width: 25em;
       height: 33em;
       box-sizing: border-box;
       background: #FFFFFF;

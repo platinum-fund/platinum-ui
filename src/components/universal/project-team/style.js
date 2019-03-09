@@ -35,6 +35,7 @@ const style = `
       margin-bottom: 2.9em;
       width: 17em;
       height: 17em;
+      object-fit: cover;
       border-radius: 50%;
     }
     

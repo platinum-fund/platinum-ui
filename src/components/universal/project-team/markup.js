@@ -3,8 +3,6 @@ import teamList from './content'
 import socialIcons from './icons/socials'
 import flagIcons from './icons/flags'
 
-import examplePhoto from './content/photos/example.jpg'
-
 const contact = (name, link) => `
   <a
     class="member__contact"
@@ -17,7 +15,7 @@ const contact = (name, link) => `
 
 const teamMember = ({ name, role, photo, contacts, country }) => `
   <div class="member">
-    <img class="member__photo" src=${examplePhoto} alt="member photo">
+    <img class="member__photo" src=${photo} alt="${name} photo">
     <h6 class="member__name">${name}</h6>
     <p class="member__position">${role}</p>
     <div class="member__footer">

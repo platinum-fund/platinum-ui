@@ -31,7 +31,7 @@ const content = [
       linkedIn: ''
     },
     country: 'Australia',
-    photo: require('./photos/dan-khomenko.jpg')
+    photo: require('./photos/dan-khomenko.png')
   },
   {
     name: 'Natalia Klemenova',
@@ -74,8 +74,8 @@ const content = [
       skype: 'skype:onovitskayabel',
       linkedIn: 'https://www.linkedin.com/in/onovitskaya/'
     },
-    country: 'Belarus'
-    // photo: require('./photos/')
+    country: 'Belarus',
+    photo: require('./photos/olga-novickaya.jpg')
   },
   {
     name: 'Alena Pilchanka',
@@ -144,17 +144,6 @@ const content = [
     photo: require('./photos/artem-finko.jpg')
   },
   {
-    name: 'Evgenii Mayboroda',
-    role: 'traffic manager ',
-    contacts: {
-      telegram: 'https://telegram.me/john_craft',
-      skype: 'skype:maiboroda.ed',
-      linkedIn: ''
-    },
-    country: 'Russia'
-    // photo: require('./photos/')
-  },
-  {
     name: 'Daniil Kapran',
     role: 'Sales manager',
     contacts: {
@@ -195,8 +184,8 @@ const content = [
       skype: 'skype:ilona2001_7',
       linkedIn: 'http://linkedin.com/in/ilona-smirnova-51122b166'
     },
-    country: 'Thailand'
-    // photo: require('./photos/')
+    country: 'Thailand',
+    photo: require('./photos/ilona-smirnova.jpg')
   },
   {
     name: 'Eric Risthisen',
@@ -278,17 +267,6 @@ const content = [
     photo: require('./photos/denis-simonov---bangkok.jpg')
   },
   {
-    name: 'Theresa Huang',
-    role: 'Sales/support',
-    contacts: {
-      telegram: 'https://telegram.me/Walkman531',
-      skype: 'skype:chientze.huang',
-      linkedIn: ''
-    },
-    country: 'Taiwan'
-    // photo: require('./photos/')
-  },
-  {
     name: 'Eunchae Jang',
     role: 'Sales/support',
     contacts: {
@@ -352,8 +330,8 @@ const content = [
       skype: 'skype:Kraman35',
       linkedIn: 'https://www.linkedin.com/in/andreyratov/'
     },
-    country: 'Japan'
-    // photo: require('./photos/')
+    country: 'Japan',
+    photo: require('./photos/andrey-ratov.jpg')
   },
   {
     name: 'Anton Znamenschikov',
@@ -386,8 +364,8 @@ const content = [
       skype: 'skype:filipenco.michael',
       linkedIn: 'https://www.linkedin.com/in/mike-filipenko-252a5878/'
     },
-    country: 'Moldova'
-    // photo: require('./photos/')
+    country: 'Moldova',
+    photo: require('./photos/mike-filipenko.jpg')
   },
   {
     name: 'Alexey Merzlikin',
@@ -465,8 +443,8 @@ const content = [
       skype: 'skype:zs-just4fun',
       linkedIn: 'https://www.linkedin.com/in/slava-zheltov-b9b59b70/'
     },
-    country: 'Russia'
-    // photo: require('./photos/')
+    country: 'Russia',
+    photo: require('./photos/svyztoslav-zheltov.jpg')
   },
   {
     name: 'Andrey Smirnov',
@@ -524,17 +502,6 @@ const content = [
     photo: require('./photos/katerina-ezerskaya.jpg')
   },
   {
-    name: 'Kirill Sosnin',
-    role: 'Front End Developer',
-    contacts: {
-      telegram: 'https://telegram.me/Kirill_Sosnin',
-      skype: 'skype:Kirill.sosnin',
-      linkedIn: 'https://www.linkedin.com/in/kirill-sosnin-8a1a0520/'
-    },
-    country: 'Russia'
-    // photo: require('./photos/')
-  },
-  {
     name: 'Rinat Rezakov',
     role: 'FrontEnd developer',
     contacts: {
@@ -564,8 +531,8 @@ const content = [
       skype: 'skype:melamory-chan',
       linkedIn: 'https://www.linkedin.com/in/anna-leschova/'
     },
-    country: 'Russia'
-    // photo: require('./photos/')
+    country: 'Russia',
+    photo: require('./photos/anna-leshova.jpg')
   },
   {
     name: 'Mihail Kudryashev',
@@ -597,8 +564,8 @@ const content = [
       skype: 'skype:niklops',
       linkedIn: 'http://www.linkedin.com/in/pisarskiy'
     },
-    country: 'Russia'
-    // photo: require('./photos/')
+    country: 'Russia',
+    photo: require('./photos/nikita-pisarskii.jpg')
   }
 ]
 

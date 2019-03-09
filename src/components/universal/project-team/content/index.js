@@ -430,7 +430,8 @@ const content = [
     contacts: {
       telegram: 'https://telegram.me/nikolkrash',
       skype: 'skype:nikol053',
-      linkedIn: 'https://www.linkedin.com/in/nikolay-krasheninnikov-64a892109/'
+      linkedIn: 'https://www.linkedin.com/in/nikolay-krasheninnikov-64a892109/',
+      github: 'https://github.com/nskrash'
     },
     country: 'Russia',
     photo: require('./photos/nikolay-kroshennikov-saratov.jpg')
@@ -441,7 +442,8 @@ const content = [
     contacts: {
       telegram: 'https://telegram.me/zheltov_slava',
       skype: 'skype:zs-just4fun',
-      linkedIn: 'https://www.linkedin.com/in/slava-zheltov-b9b59b70/'
+      linkedIn: 'https://www.linkedin.com/in/slava-zheltov-b9b59b70/',
+      github: 'https://github.com/sayx'
     },
     country: 'Russia',
     photo: require('./photos/svyztoslav-zheltov.jpg')
@@ -452,7 +454,8 @@ const content = [
     contacts: {
       telegram: 'https://telegram.me/batiscaff',
       skype: 'skype:btiscaff',
-      linkedIn: 'https://www.linkedin.com/in/андрей-смирнов-a5035885/'
+      linkedIn: 'https://www.linkedin.com/in/андрей-смирнов-a5035885/',
+      github: 'https://github.com/Batiscaff'
     },
     country: 'Russia',
     photo: require('./photos/andrey-smirnov-moscow.jpg')
@@ -463,7 +466,8 @@ const content = [
     contacts: {
       telegram: 'https://telegram.me/No148',
       skype: 'skype:pronto-school',
-      linkedIn: 'https://www.linkedin.com/in/denis-udot-635160169/'
+      linkedIn: 'https://www.linkedin.com/in/denis-udot-635160169/',
+      github: 'https://github.com/No148'
     },
     country: 'Russia',
     photo: require('./photos/denis-udot.jpg')
@@ -474,7 +478,8 @@ const content = [
     contacts: {
       telegram: 'https://telegram.me/alex_adylshin',
       skype: 'skype:lesha80',
-      linkedIn: 'https://www.linkedin.com/in/alexey-adylshin-a560a215/'
+      linkedIn: 'https://www.linkedin.com/in/alexey-adylshin-a560a215/',
+      github: 'https://github.com/AlexAdylshin'
     },
     country: 'Uzbekistan',
     photo: require('./photos/alexey-adilshin.jpg')
@@ -496,7 +501,8 @@ const content = [
     contacts: {
       telegram: 'https://telegram.me/ezerskayakatja',
       skype: 'skype:ezersk',
-      linkedIn: 'https://www.linkedin.com/in/ekaterina-ezerskaya-a0537b97'
+      linkedIn: 'https://www.linkedin.com/in/ekaterina-ezerskaya-a0537b97',
+      github: 'https://github.com/Ezerskaya'
     },
     country: 'Russia',
     photo: require('./photos/katerina-ezerskaya.jpg')
@@ -507,7 +513,8 @@ const content = [
     contacts: {
       telegram: 'https://telegram.me/evoltic',
       skype: 'skype:rezakov_r',
-      linkedIn: 'https://www.linkedin.com/in/rinat-rezakov-477747160/'
+      linkedIn: 'https://www.linkedin.com/in/rinat-rezakov-477747160/',
+      github: 'https://github.com/Evoltic'
     },
     country: 'Russia',
     photo: require('./photos/rinat-rezakov-perm.jpg')
@@ -518,7 +525,8 @@ const content = [
     contacts: {
       telegram: 'https://telegram.me/DartSaben',
       skype: 'skype:saben_nm',
-      linkedIn: 'https://www.linkedin.com/in/nikita-morozov-98892a176/'
+      linkedIn: 'https://www.linkedin.com/in/nikita-morozov-98892a176/',
+      github: 'https://github.com/sabenok'
     },
     country: 'Russia',
     photo: require('./photos/nikita-morozov.jpg')
@@ -540,7 +548,8 @@ const content = [
     contacts: {
       telegram: 'https://telegram.me/uamedwed',
       skype: 'skype:uamedwed',
-      linkedIn: 'https://www.linkedin.com/in/kudryashev-mihail/'
+      linkedIn: 'https://www.linkedin.com/in/kudryashev-mihail/',
+      github: 'https://github.com/uamedwed'
     },
     country: 'Russia',
     photo: require('./photos/mihail-kudryashev---simferopol.jpg')
@@ -562,7 +571,8 @@ const content = [
     contacts: {
       telegram: 'https://telegram.me/pisarskiy',
       skype: 'skype:niklops',
-      linkedIn: 'http://www.linkedin.com/in/pisarskiy'
+      linkedIn: 'http://www.linkedin.com/in/pisarskiy',
+      github: 'https://github.com/Pisarskiy'
     },
     country: 'Russia',
     photo: require('./photos/nikita-pisarskii.jpg')

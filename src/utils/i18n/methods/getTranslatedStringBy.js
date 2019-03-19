@@ -1,6 +1,6 @@
 function getTranslatedStringBy(key, defaultText, placeholders = {}) {
   const translations = this.translations[this.language] || {}
-  let string = translations[key] || defaultText
+  let string = translations[key] || defaultText || this.translations['en'][key]
 
   for (const placeholder of Object.keys(placeholders)) {
     string = string.replace(

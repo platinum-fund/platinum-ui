@@ -42,14 +42,14 @@ const team = list => `
 `
 
 const markup = `
-<show-more>
-  <div slot="preview">
-    ${team(teamList.slice(0, 12))}
-  </div>
-  <div slot="rest">
-    ${team(teamList.slice(12))}
-  </div>
-</show-more>
+  <show-more>
+    <div slot="preview">
+      ${team(teamList.slice(0, 12))}
+    </div>
+    <div slot="rest">
+      ${team(teamList.slice(12))}
+    </div>
+  </show-more>
 `
 
 export default markup

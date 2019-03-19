@@ -64,7 +64,7 @@ const content = [
       linkedIn: ''
     },
     country: 'Belarus',
-    photo: require('./photos/vladimir-hovanskiy.jpg')
+    photo: require('./photos/vladimir-grinevskiy-belarus.png')
   },
   {
     name: 'Olga Novitskaya',

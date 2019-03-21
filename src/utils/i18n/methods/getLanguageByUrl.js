@@ -1,3 +1,14 @@
+const supportedLanguages = ['en', 'ja', 'ko', 'zh']
+
+function getBySearchParam(url) {
+  return url.searchParams.get('lang')
+}
+
+function getByPathname(url) {
+  const paths = url.pathname.split('/')
+  return paths.find(path => supportedLanguages.includes(path))
+}
+
 function getLanguageByUrl() {
   if (typeof window === 'undefined') {
     return 'en'
@@ -5,14 +16,9 @@ function getLanguageByUrl() {
 
   const urlString = window.location.href
   const url = new URL(urlString)
-  const language = url.searchParams.get('lang') || 'en'
 
-  return language
-    .split('-')
-    .map((word, index) =>
-      index > 0 ? word.charAt(0).toUpperCase() + word.slice(1) : word
-    )
-    .join('')
+  const language = getBySearchParam(url) || getByPathname(url) || 'en'
+  return language.toLowerCase()
 }
 
 export default getLanguageByUrl

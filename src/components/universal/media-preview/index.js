@@ -1,3 +1,4 @@
+import '@webcomponents/custom-elements'
 import markup from './markup'
 import style from './style'
 

@@ -1,3 +1,4 @@
+import '@webcomponents/webcomponentsjs/webcomponents-bundle.js'
 import markup from './markup'
 import style from './style'
 

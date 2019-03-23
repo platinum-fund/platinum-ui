@@ -1,3 +1,4 @@
+import '@webcomponents/webcomponentsjs/webcomponents-bundle.js'
 import template from './template'
 
 class TokensSlider extends HTMLElement {

@@ -309,7 +309,7 @@ const content = [
   },
   {
     name: 'Daria Volkova ',
-    role: t('assistant'),
+    role: t('headOfLegal'),
     contacts: {
       telegram: 'https://telegram.me/DariaVolkova7',
       skype: 'skype:Dashyk-Karandashyk',
@@ -354,7 +354,7 @@ const content = [
   },
   {
     name: 'Inna Halahuz',
-    role: t('salesManager'),
+    role: t('projectManager'),
     contacts: {
       telegram: 'https://telegram.me/innaponomarenko',
       skype: 'skype:380964001271',
@@ -422,7 +422,7 @@ const content = [
   },
   {
     name: 'Vyacheslav Mikhalkin',
-    role: 't(designerPM(AlsoDesignerOnWallet))',
+    role: t('projectManager'),
     contacts: {
       telegram: 'https://telegram.me/lumenio',
       skype: 'skype:lumhtc@gmail.com',
@@ -504,7 +504,7 @@ const content = [
   },
   {
     name: 'Ekaterina Ezerskaya',
-    role: t('backEndDeveloper'),
+    role: t('frontEndDeveloper'),
     contacts: {
       telegram: 'https://telegram.me/ezerskayakatja',
       skype: 'skype:ezersk',
@@ -528,7 +528,7 @@ const content = [
   },
   {
     name: 'Nikita Morozov',
-    role: t('frontEndDeveloper'),
+    role: t('backEndDeveloper'),
     contacts: {
       telegram: 'https://telegram.me/DartSaben',
       skype: 'skype:saben_nm',

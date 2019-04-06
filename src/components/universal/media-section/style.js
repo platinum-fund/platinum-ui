@@ -7,7 +7,7 @@ const style = `
     }
     
     .articles .article {
-      margin: 2.5em 1.5em;
+      margin: 2.5em 1.4em;
     }
     
     .article {
@@ -17,6 +17,7 @@ const style = `
       width: calc(33% - 9em);
       background: #ffffff;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      border: 1px solid rgba(0,0,0,0);
       border-radius: 34px;
       transition: border-color 0.3s, transform 0.3s;
     }

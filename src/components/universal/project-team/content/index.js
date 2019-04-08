@@ -398,17 +398,6 @@ const content = [
     photo: require('./photos/akelev-vladislav-moscow.jpg')
   },
   {
-    name: 'Kristina Semenova',
-    role: t('headOfIRDepartment'),
-    contacts: {
-      telegram: 'https://telegram.me/iamkristinasem',
-      skype: 'skype:gmu2010',
-      linkedIn: 'https://www.linkedin.com/in/kristina-semenova-b0b999164/'
-    },
-    country: 'Russia',
-    photo: require('./photos/kristina-semenova---dmitrov.jpg')
-  },
-  {
     name: 'Daria Barkova',
     role: t('headOfHRDepartment'),
     contacts: {

@@ -84,17 +84,6 @@ const articles = [
       'https://seekingalpha.com/instablog/49582419-alena-kalionova/5251739-roller-coaster-rise-cryptocurrencies-2018-experts-explain'
   },
   {
-    date: 'December 24, 2018',
-    image: require('./images/medium.png'),
-    title:
-      'Security tokens in the US: regulations and exemptions under the SEC laws',
-    text:
-      'The USA and Switzerland became the first countries to initiate the legitimization of tokens. It is up to them that today we know the difference...',
-    source: 'https://hackernoon.com',
-    sourcePage:
-      'https://hackernoon.com/security-tokens-in-the-us-regulations-and-exemptions-under-the-sec-laws-4640b5570948'
-  },
-  {
     date: 'December 21, 2018',
     image: require('./images/financial.png'),
     title: 'What is an STO and why your company needs help?',

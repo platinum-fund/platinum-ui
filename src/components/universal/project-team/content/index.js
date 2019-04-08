@@ -120,7 +120,7 @@ const content = [
   },
   {
     name: 'Dmitrii Skripkin',
-    role: t('affiliateMarketing'),
+    role: t('teamLead'),
     contacts: {
       telegram: 'https://telegram.me/d_skripkin',
       skype: 'skype:skripkin.ru',
@@ -164,7 +164,7 @@ const content = [
   },
   {
     name: 'Dmitry Brykin ',
-    role: t('salesSupport'),
+    role: t('sales/Support'),
     contacts: {
       telegram: 'https://telegram.me/KorhSupport',
       skype: 'skype:live:dezor204',
@@ -175,7 +175,7 @@ const content = [
   },
   {
     name: 'Haleel Risthisen',
-    role: t('salesSupport'),
+    role: t('sales/Support'),
     contacts: {
       telegram: 'https://telegram.me/gummysx',
       skype: 'skype:nooni.renei',
@@ -186,7 +186,7 @@ const content = [
   },
   {
     name: 'Ilona Smirnova',
-    role: t('salesSupport'),
+    role: t('sales/Support'),
     contacts: {
       telegram: 'https://telegram.me/ilonasm',
       skype: 'skype:ilona2001_7',
@@ -197,7 +197,7 @@ const content = [
   },
   {
     name: 'Eric Risthisen',
-    role: t('salesSupport'),
+    role: t('sales/Support'),
     contacts: {
       telegram: 'https://telegram.me/colddogz',
       skype: 'skype:amristhisen',
@@ -208,7 +208,7 @@ const content = [
   },
   {
     name: 'Teethat Rinchai',
-    role: t('salesSupport'),
+    role: t('sales/Support'),
     contacts: {
       telegram: 'https://telegram.me/Talonpro',
       skype: 'skype:tanakahorror',
@@ -219,7 +219,7 @@ const content = [
   },
   {
     name: 'Alexander Edelstein',
-    role: t('salesSupport'),
+    role: t('sales/Support'),
     contacts: {
       telegram: 'https://telegram.me/eyisback',
       skype: 'skype:dikiy_maloy',
@@ -230,7 +230,7 @@ const content = [
   },
   {
     name: 'Alexander Ikaev',
-    role: t('salesSupport'),
+    role: t('sales/Support'),
     contacts: {
       telegram: 'https://telegram.me/itakella',
       skype: 'skype:aykaev1',
@@ -241,7 +241,7 @@ const content = [
   },
   {
     name: 'Mariya Danilova',
-    role: t('salesSupport'),
+    role: t('sales/Support'),
     contacts: {
       telegram: 'https://telegram.me/Mashysh',
       skype: 'skype:live:2274b2042dd457dc',
@@ -253,7 +253,7 @@ const content = [
   },
   {
     name: 'Artyom Sabura',
-    role: t('salesSupport'),
+    role: t('sales/Support'),
     contacts: {
       telegram: 'https://telegram.me/artyomque',
       skype: 'skype:furuderikach',
@@ -265,7 +265,7 @@ const content = [
   },
   {
     name: 'Denis Simonov',
-    role: t('salesSupport'),
+    role: t('sales/Support'),
     contacts: {
       telegram: 'https://telegram.me/den591',
       skype: 'skype:vce_dlia_meia',
@@ -276,7 +276,7 @@ const content = [
   },
   {
     name: 'Eunchae Jang',
-    role: t('salesSupport'),
+    role: t('sales/Support'),
     contacts: {
       telegram: 'https://telegram.me/Eunchae4',
       skype: 'skype:eae716@naver.com',

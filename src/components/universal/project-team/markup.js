@@ -15,7 +15,11 @@ const contact = (name, link) => `
 
 const teamMember = ({ name, role, photo, contacts, country }) => `
   <div class="member">
-    <img class="member__photo" src=${photo} alt="${name} photo">
+    <img 
+      class="member__photo js-lazy" 
+      data-src=${photo} 
+      alt="${name} photo"
+    >
     <h6 class="member__name">${name}</h6>
     <p class="member__position">${role}</p>
     <div class="member__footer">

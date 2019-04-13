@@ -4,8 +4,8 @@ import tokenList from './content'
 const tokenMarkup = ({ name, image, imageAlt }) => `
    <div class="token-list__item">
       <img
-        class="token-list__image"
-        src="${image}"
+        class="token-list__image js-lazy"
+        data-src="${image}"
         alt="${imageAlt}"
       />
       <p class="token-list__name">${name}</p>

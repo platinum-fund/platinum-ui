@@ -1,11 +1,17 @@
 import '@webcomponents/webcomponentsjs/webcomponents-bundle.js'
+import LazyLoad from 'vanilla-lazyload'
 import template from './template'
 
 class TokensSlider extends HTMLElement {
   constructor() {
     super()
-    const shadow = this.attachShadow({ mode: 'open' })
-    shadow.appendChild(template.content.cloneNode(true))
+    this.shadow = this.attachShadow({ mode: 'open' })
+    this.shadow.appendChild(template.content.cloneNode(true))
+  }
+
+  connectedCallback() {
+    const elements = this.shadow.querySelectorAll('.js-lazy')
+    new LazyLoad({}, elements)
   }
 }
 

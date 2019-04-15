@@ -481,18 +481,6 @@ const content = [
     photo: require('./photos/svyztoslav-zheltov.jpg')
   },
   {
-    name: 'Andrey Smirnov',
-    role: t('backEndDeveloper'),
-    contacts: {
-      telegram: 'https://telegram.me/batiscaff',
-      skype: 'skype:btiscaff',
-      linkedIn: 'https://www.linkedin.com/in/андрей-смирнов-a5035885/',
-      github: 'https://github.com/Batiscaff'
-    },
-    country: 'Russia',
-    photo: require('./photos/andrey-smirnov-moscow.jpg')
-  },
-  {
     name: 'Denis Udot',
     role: t('backEndDeveloperSupport'),
     contacts: {

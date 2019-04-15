@@ -14,7 +14,7 @@ const style = `
 		
 		.card__item {
 		  display: block;
-		  padding: 1em 0.7em;
+		  padding: 1em 0.6em;
 		  filter: grayscale(100%);
 		  opacity: 0.48;
 		  transition: filter 0.1s, opacity 0.1s;

@@ -378,7 +378,7 @@ const content = [
   },
   {
     name: 'Mike Filipenko',
-    role: t('saleExecutive/LeadGen1Trainee'),
+    role: t('saleExecutive/ListingManager'),
     contacts: {
       telegram: 'https://telegram.me/mikefez',
       skype: 'skype:filipenco.michael',

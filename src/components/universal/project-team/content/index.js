@@ -365,8 +365,20 @@ const content = [
     photo: require('./photos/inna-halahuz---lviv.jpg')
   },
   {
+    name: 'Anton Fartushniy',
+    role: t('salesManager'),
+    contacts: {
+      telegram: 'https://telegram.me/antongenius16',
+      skype: 'skype: live:8860bd9c132c190b',
+      linkedIn:
+        ''
+    },
+    country: 'Russia',
+    photo: require('./photos/anton-fartushniy-russia.png')
+  },
+  {
     name: 'Mike Filipenko',
-    role: t('saleExecutive/LeadGen1Trainee'),
+    role: t('saleExecutive/ListingManager'),
     contacts: {
       telegram: 'https://telegram.me/mikefez',
       skype: 'skype:filipenco.michael',
@@ -410,6 +422,30 @@ const content = [
     photo: require('./photos/daria-barkova---krasnoyarsk.jpg')
   },
   {
+    name: 'Anna Skripnikova',
+    role: t('assistantHR'),
+    contacts: {
+      telegram: 'https://telegram.me/lukiasha',
+      skype: 'skype: live:eb5b000927a11b23',
+      linkedIn:
+        'https://www.linkedin.com/in/anna-skripnikova-b77479130/'
+    },
+    country: 'Peru',
+    photo: require('./photos/anna-skripnilova-lima.png')
+  },
+  {
+    name: 'Elena Vlasova',
+    role: t('assistantHR'),
+    contacts: {
+      telegram: 'https://telegram.me/@selena_moon',
+      skype: 'skype: elena.vlasova.wm',
+      linkedIn:
+        ''
+    },
+    country: 'Russia',
+    photo: require('./photos/elena-vlasova-krasnoyarsk.png')
+  },
+  {
     name: 'Vyacheslav Mikhalkin',
     role: t('projectManager'),
     contacts: {
@@ -443,18 +479,6 @@ const content = [
     },
     country: 'Russia',
     photo: require('./photos/svyztoslav-zheltov.jpg')
-  },
-  {
-    name: 'Andrey Smirnov',
-    role: t('backEndDeveloper'),
-    contacts: {
-      telegram: 'https://telegram.me/batiscaff',
-      skype: 'skype:btiscaff',
-      linkedIn: 'https://www.linkedin.com/in/андрей-смирнов-a5035885/',
-      github: 'https://github.com/Batiscaff'
-    },
-    country: 'Russia',
-    photo: require('./photos/andrey-smirnov-moscow.jpg')
   },
   {
     name: 'Denis Udot',

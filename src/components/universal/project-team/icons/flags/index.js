@@ -11,7 +11,8 @@ const flagIcons = {
   japan: require('./japan-flag.svg'),
   'new-zealand': require('./new-zealand-flag.svg'),
   moldova: require('./moldova-flag.svg'),
-  uzbekistan: require('./uzbekistan-flag.svg')
+  uzbekistan: require('./uzbekistan-flag.svg'),
+  peru: require('./peru.svg')
 }
 
 export default flagIcons

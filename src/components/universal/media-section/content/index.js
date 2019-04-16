@@ -1,5 +1,26 @@
 const articles = [
   {
+    date: 'April 24, 2019',
+    image: require('./images/nulltx-logo.png'),
+    title: 'Is Your Stablecoin Being Disrupted Too?\n',
+    text:
+      'For over a decade now, cryptocurrencies have been disrupting legacy finance. Jump started with Bitcoin, crypto markets exploded with CoinMarketCap currently showing 2136 cryptocurrencies. Growth in the number of coins ...',
+    source: 'https://nulltx.com/',
+    sourcePage:
+      'https://nulltx.com/is-your-stablecoin-being-disrupted-too/'
+  },
+  {
+    date: 'March 30, 2019',
+    image: require('./images/coinspeaker.png'),
+    title: 'Why IEO is the Most Efficient Method of Fundraising?\n',
+    text:
+      'None of the most significant inventions were created instantaneously – they required a network of dedicated professionals and thousands of hours of research and development. ...',
+    source: 'https://www.coinspeaker.com',
+    sourcePage:
+      'https://www.coinspeaker.com/ieo-method-fundraising/'
+  },
+
+  {
     date: 'December 27, 2018',
     image: require('./images/coin-gape.png'),
     title: 'Will 2019 be the year of STOs, the Blockchain based Securities?\n',
@@ -18,17 +39,6 @@ const articles = [
     source: 'https://www.livebitcoinnews.com',
     sourcePage:
       'https://www.livebitcoinnews.com/are-stos-the-step-in-the-right-direction-for-crypto/'
-  },
-  {
-    date: 'December 26, 2018',
-    image: require('./images/blockhain-today.png'),
-    title:
-      '2019 as the Year of Crypto Regulation: Will STOs Become a New Trend?',
-    text:
-      'By definition, cryptocurrency is intended to provide freedom from central authorities, anonymity and borderless transactions...',
-    source: 'http://blockchaintoday.co.kr/',
-    sourcePage:
-      'http://blockchaintoday.co.kr/news/viewpage.php?wr_id=1651//blockchaintoday.co.kr/news/viewpage.php?wr_id=1651'
   },
   {
     date: 'December 26, 2018',

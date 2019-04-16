@@ -41,6 +41,11 @@ const content = [
     href:
       'http://blockchaintoday.co.kr/news/viewpage.php?wr_id=1651//blockchaintoday.co.kr/news/viewpage.php?wr_id=1651',
     image: require('./images/blockhain-today.png')
+  },
+  {
+    href:
+      'https://nulltx.com/is-your-stablecoin-being-disrupted-too/',
+    image: require('./images/nulltx-logo.png')
   }
 ]
 

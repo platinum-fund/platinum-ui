@@ -1,6 +1,6 @@
 import '@webcomponents/webcomponentsjs/webcomponents-bundle.js'
-import LazyLoad from 'vanilla-lazyload'
 import template from './template'
+import updateMarkup from './methods/updateMarkup'
 
 class ProjectTeam extends HTMLElement {
   constructor() {
@@ -9,10 +9,21 @@ class ProjectTeam extends HTMLElement {
     this.shadow.appendChild(template.content.cloneNode(true))
   }
 
+  static get observedAttributes() {
+    return ['language']
+  }
+
   connectedCallback() {
-    const elements = this.shadow.querySelectorAll('.js-lazy')
-    new LazyLoad({}, elements)
+    this.updateMarkup()
+  }
+
+  attributeChangedCallback(name) {
+    if (name === 'language') {
+      this.updateMarkup()
+    }
   }
 }
+
+ProjectTeam.prototype.updateMarkup = updateMarkup
 
 window.customElements.define('project-team', ProjectTeam)

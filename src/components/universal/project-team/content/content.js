@@ -1,15 +1,7 @@
-import TranslationsProvider from '../../../../utils/i18n/TranslationsProvider'
-import translations from './translations'
-
-const translationsProvider = new TranslationsProvider(translations)
-translationsProvider.language = TranslationsProvider.getLanguageByUrl()
-
-const t = key => translationsProvider.getTranslatedStringBy(key)
-
 const content = [
   {
     name: 'Anton Dzyatkovskiy',
-    role: t('coFounderCOO'),
+    role: 'coFounderCOO',
     contacts: {
       telegram: 'https://telegram.me/antondz',
       skype: 'skype:antond.merlion',
@@ -21,7 +13,7 @@ const content = [
   },
   {
     name: 'Pavel Bogush',
-    role: t('deputyOfCOO'),
+    role: 'deputyOfCOO',
     contacts: {
       telegram: 'https://telegram.me/NewHappyDay',
       skype: 'skype:pepel_2',
@@ -32,7 +24,7 @@ const content = [
   },
   {
     name: 'Dan Khomenko',
-    role: t('СOFounder'),
+    role: 'СOFounder',
     contacts: {
       telegram: 'https://telegram.me/dankom',
       skype: 'skype:bodestar1991',
@@ -43,7 +35,7 @@ const content = [
   },
   {
     name: 'Natalia Klemenova',
-    role: t('headOfFinanceDepartment'),
+    role: 'headOfFinanceDepartment',
     contacts: {
       telegram: 'https://telegram.me/nataklemenova',
       skype: 'skype:tusya-natunec',
@@ -54,7 +46,7 @@ const content = [
   },
   {
     name: 'Helena Kondricheva',
-    role: t('financeAssistant'),
+    role: 'financeAssistant',
     contacts: {
       telegram: 'https://telegram.me/KoHelena',
       skype: 'skype:marlusha_z',
@@ -65,7 +57,7 @@ const content = [
   },
   {
     name: 'Vladimir Grinevskiy',
-    role: t('chiefEditor'),
+    role: 'chiefEditor',
     contacts: {
       telegram: 'https://telegram.me/vsvoboden',
       skype: 'skype:vsvoboden',
@@ -76,7 +68,7 @@ const content = [
   },
   {
     name: 'Olga Novitskaya',
-    role: t('projectManagerOnPostICOMarketingProjects'),
+    role: 'projectManagerOnPostICOMarketingProjects',
     contacts: {
       telegram: 'https://telegram.me/ONovitskaya',
       skype: 'skype:onovitskayabel',
@@ -87,7 +79,7 @@ const content = [
   },
   {
     name: 'Alena Pilchanka',
-    role: t('sMMManager'),
+    role: 'sMMManager',
     contacts: {
       telegram: 'https://telegram.me/HPilch',
       skype: 'skype:h.pilchenko@gmail.com',
@@ -98,7 +90,7 @@ const content = [
   },
   {
     name: 'Julia Savitskaya',
-    role: t('sMMManager'),
+    role: 'sMMManager',
     contacts: {
       telegram: 'https://telegram.me/YulikoS',
       skype: 'skype:sweeeeet_darling',
@@ -109,7 +101,7 @@ const content = [
   },
   {
     name: 'Vladimir Hovansky (Galicin)',
-    role: t('googleAdwordsManager/Analytics'),
+    role: 'googleAdwordsManager/Analytics',
     contacts: {
       telegram: 'https://telegram.me/Vlad_Hovanskiy',
       skype: 'skype:atasarmat1980',
@@ -120,7 +112,7 @@ const content = [
   },
   {
     name: 'Dmitrii Skripkin',
-    role: t('affiliateMarketing'),
+    role: 'affiliateMarketing',
     contacts: {
       telegram: 'https://telegram.me/d_skripkin',
       skype: 'skype:skripkin.ru',
@@ -131,7 +123,7 @@ const content = [
   },
   {
     name: 'Anton Vasiliev ',
-    role: t('EMailMarketing'),
+    role: 'EMailMarketing',
     contacts: {
       telegram: 'https://telegram.me/carmelovas',
       skype: 'skype:carmelovas',
@@ -142,7 +134,7 @@ const content = [
   },
   {
     name: 'Artem Finko',
-    role: t('bountyManager'),
+    role: 'bountyManager',
     contacts: {
       telegram: 'https://telegram.me/obscuredust88',
       skype: 'skype:https://join.skype.com/invite/kUKhmHkK7byQ',
@@ -153,7 +145,7 @@ const content = [
   },
   {
     name: 'Daniil Kapran',
-    role: t('salesManager'),
+    role: 'salesManager',
     contacts: {
       telegram: 'https://telegram.me/Daniel_Kapran',
       skype: 'skype:dkapran54321',
@@ -164,7 +156,7 @@ const content = [
   },
   {
     name: 'Dmitry Brykin ',
-    role: t('salesSupport'),
+    role: 'salesSupport',
     contacts: {
       telegram: 'https://telegram.me/KorhSupport',
       skype: 'skype:live:dezor204',
@@ -175,7 +167,7 @@ const content = [
   },
   {
     name: 'Haleel Risthisen',
-    role: t('salesSupport'),
+    role: 'salesSupport',
     contacts: {
       telegram: 'https://telegram.me/gummysx',
       skype: 'skype:nooni.renei',
@@ -186,7 +178,7 @@ const content = [
   },
   {
     name: 'Ilona Smirnova',
-    role: t('salesSupport'),
+    role: 'salesSupport',
     contacts: {
       telegram: 'https://telegram.me/ilonasm',
       skype: 'skype:ilona2001_7',
@@ -197,7 +189,7 @@ const content = [
   },
   {
     name: 'Eric Risthisen',
-    role: t('salesSupport'),
+    role: 'salesSupport',
     contacts: {
       telegram: 'https://telegram.me/colddogz',
       skype: 'skype:amristhisen',
@@ -208,7 +200,7 @@ const content = [
   },
   {
     name: 'Teethat Rinchai',
-    role: t('salesSupport'),
+    role: 'salesSupport',
     contacts: {
       telegram: 'https://telegram.me/Talonpro',
       skype: 'skype:tanakahorror',
@@ -219,7 +211,7 @@ const content = [
   },
   {
     name: 'Alexander Edelstein',
-    role: t('salesSupport'),
+    role: 'salesSupport',
     contacts: {
       telegram: 'https://telegram.me/eyisback',
       skype: 'skype:dikiy_maloy',
@@ -230,7 +222,7 @@ const content = [
   },
   {
     name: 'Alexander Ikaev',
-    role: t('salesSupport'),
+    role: 'salesSupport',
     contacts: {
       telegram: 'https://telegram.me/itakella',
       skype: 'skype:aykaev1',
@@ -241,7 +233,7 @@ const content = [
   },
   {
     name: 'Mariya Danilova',
-    role: t('salesSupport'),
+    role: 'salesSupport',
     contacts: {
       telegram: 'https://telegram.me/Mashysh',
       skype: 'skype:live:2274b2042dd457dc',
@@ -253,7 +245,7 @@ const content = [
   },
   {
     name: 'Artyom Sabura',
-    role: t('salesSupport'),
+    role: 'salesSupport',
     contacts: {
       telegram: 'https://telegram.me/artyomque',
       skype: 'skype:furuderikach',
@@ -265,7 +257,7 @@ const content = [
   },
   {
     name: 'Denis Simonov',
-    role: t('salesSupport'),
+    role: 'salesSupport',
     contacts: {
       telegram: 'https://telegram.me/den591',
       skype: 'skype:vce_dlia_meia',
@@ -276,7 +268,7 @@ const content = [
   },
   {
     name: 'Eunchae Jang',
-    role: t('salesSupport'),
+    role: 'salesSupport',
     contacts: {
       telegram: 'https://telegram.me/Eunchae4',
       skype: 'skype:eae716@naver.com',
@@ -287,7 +279,7 @@ const content = [
   },
   {
     name: 'Anzhelika Erhan',
-    role: t('headOfDesigners'),
+    role: 'headOfDesigners',
     contacts: {
       telegram: 'https://telegram.me/angelika_erhan',
       skype: 'skype:live:floopy_nyc',
@@ -298,7 +290,7 @@ const content = [
   },
   {
     name: 'Viktoria Mikhalkina',
-    role: t('designer'),
+    role: 'designer',
     contacts: {
       telegram: 'https://telegram.me/robbeen',
       skype: 'skype:vika_robert',
@@ -309,7 +301,7 @@ const content = [
   },
   {
     name: 'Daria Volkova ',
-    role: t('headOfLegal'),
+    role: 'headOfLegal',
     contacts: {
       telegram: 'https://telegram.me/DariaVolkova7',
       skype: 'skype:Dashyk-Karandashyk',
@@ -321,7 +313,7 @@ const content = [
   },
   {
     name: 'Ivan Nosha',
-    role: t('salesDirector'),
+    role: 'salesDirector',
     contacts: {
       telegram: 'https://telegram.me/noshman',
       skype: 'skype:ivan.nosha',
@@ -332,7 +324,7 @@ const content = [
   },
   {
     name: 'Andrei Ratov',
-    role: t('salesManager'),
+    role: 'salesManager',
     contacts: {
       telegram: 'https://telegram.me/AndreyRatov',
       skype: 'skype:Kraman35',
@@ -343,7 +335,7 @@ const content = [
   },
   {
     name: 'Anton Znamenschikov',
-    role: t('salesManager/Deputy'),
+    role: 'salesManager/Deputy',
     contacts: {
       telegram: 'https://telegram.me/Antonzna',
       skype: 'skype:luidgy_131',
@@ -354,7 +346,7 @@ const content = [
   },
   {
     name: 'Inna Halahuz',
-    role: t('projectManager'),
+    role: 'projectManager',
     contacts: {
       telegram: 'https://telegram.me/innaponomarenko',
       skype: 'skype:380964001271',
@@ -366,19 +358,18 @@ const content = [
   },
   {
     name: 'Anton Fartushniy',
-    role: t('salesManager'),
+    role: 'salesManager',
     contacts: {
       telegram: 'https://telegram.me/antongenius16',
       skype: 'skype: live:8860bd9c132c190b',
-      linkedIn:
-        ''
+      linkedIn: ''
     },
     country: 'Russia',
     photo: require('./photos/anton-fartushniy-russia.png')
   },
   {
     name: 'Mike Filipenko',
-    role: t('saleExecutive/ListingManager'),
+    role: 'saleExecutive/ListingManager',
     contacts: {
       telegram: 'https://telegram.me/mikefez',
       skype: 'skype:filipenco.michael',
@@ -389,7 +380,7 @@ const content = [
   },
   {
     name: 'Alexey Merzlikin',
-    role: t('salesManager'),
+    role: 'salesManager',
     contacts: {
       telegram: 'https://telegram.me/nikilzrem',
       skype: 'skype:am@platinum.fund',
@@ -400,7 +391,7 @@ const content = [
   },
   {
     name: 'Vlad Akelev',
-    role: t('salesManager'),
+    role: 'salesManager',
     contacts: {
       telegram: 'https://telegram.me/VAkelyev',
       skype: 'skype:Akelyev',
@@ -411,7 +402,7 @@ const content = [
   },
   {
     name: 'Daria Barkova',
-    role: t('headOfHRDepartment'),
+    role: 'headOfHRDepartment',
     contacts: {
       telegram: 'https://telegram.me/Daria_DV',
       skype: 'skype:ya_dariyka',
@@ -423,31 +414,29 @@ const content = [
   },
   {
     name: 'Anna Skripnikova',
-    role: t('assistantHR'),
+    role: 'assistantHR',
     contacts: {
       telegram: 'https://telegram.me/lukiasha',
       skype: 'skype: live:eb5b000927a11b23',
-      linkedIn:
-        'https://www.linkedin.com/in/anna-skripnikova-b77479130/'
+      linkedIn: 'https://www.linkedin.com/in/anna-skripnikova-b77479130/'
     },
     country: 'Peru',
     photo: require('./photos/anna-skripnilova-lima.png')
   },
   {
     name: 'Elena Vlasova',
-    role: t('assistantHR'),
+    role: 'assistantHR',
     contacts: {
       telegram: 'https://telegram.me/@selena_moon',
       skype: 'skype: elena.vlasova.wm',
-      linkedIn:
-        ''
+      linkedIn: ''
     },
     country: 'Russia',
     photo: require('./photos/elena-vlasova-krasnoyarsk.png')
   },
   {
     name: 'Vyacheslav Mikhalkin',
-    role: t('projectManager'),
+    role: 'projectManager',
     contacts: {
       telegram: 'https://telegram.me/lumenio',
       skype: 'skype:lumhtc@gmail.com',
@@ -458,7 +447,7 @@ const content = [
   },
   {
     name: 'Nikolay Kroshennikov',
-    role: t('backEndDeveloper'),
+    role: 'backEndDeveloper',
     contacts: {
       telegram: 'https://telegram.me/nikolkrash',
       skype: 'skype:nikol053',
@@ -470,7 +459,7 @@ const content = [
   },
   {
     name: 'Svyatoslav Zeltov',
-    role: t('frontEndDeveloper'),
+    role: 'frontEndDeveloper',
     contacts: {
       telegram: 'https://telegram.me/zheltov_slava',
       skype: 'skype:zs-just4fun',
@@ -482,7 +471,7 @@ const content = [
   },
   {
     name: 'Denis Udot',
-    role: t('backEndDeveloperSupport'),
+    role: 'backEndDeveloperSupport',
     contacts: {
       telegram: 'https://telegram.me/No148',
       skype: 'skype:pronto-school',
@@ -494,7 +483,7 @@ const content = [
   },
   {
     name: 'Alexey Adylshin',
-    role: t('backEndDeveloperSupport'),
+    role: 'backEndDeveloperSupport',
     contacts: {
       telegram: 'https://telegram.me/alex_adylshin',
       skype: 'skype:lesha80',
@@ -506,7 +495,7 @@ const content = [
   },
   {
     name: 'Andrei Amialkovich',
-    role: t('seniorProjectManager'),
+    role: 'seniorProjectManager',
     contacts: {
       telegram: 'https://telegram.me/a_amialkovich',
       skype: 'skype:andrey_melkiy',
@@ -517,7 +506,7 @@ const content = [
   },
   {
     name: 'Ekaterina Ezerskaya',
-    role: t('frontEndDeveloper'),
+    role: 'frontEndDeveloper',
     contacts: {
       telegram: 'https://telegram.me/ezerskayakatja',
       skype: 'skype:ezersk',
@@ -529,7 +518,7 @@ const content = [
   },
   {
     name: 'Rinat Rezakov',
-    role: t('frontEndDeveloper'),
+    role: 'frontEndDeveloper',
     contacts: {
       telegram: 'https://telegram.me/evoltic',
       skype: 'skype:rezakov_r',
@@ -541,7 +530,7 @@ const content = [
   },
   {
     name: 'Nikita Morozov',
-    role: t('backEndDeveloper'),
+    role: 'backEndDeveloper',
     contacts: {
       telegram: 'https://telegram.me/DartSaben',
       skype: 'skype:saben_nm',
@@ -553,7 +542,7 @@ const content = [
   },
   {
     name: 'Anna Leshova',
-    role: t('translator'),
+    role: 'translator',
     contacts: {
       telegram: 'https://telegram.me/melamory_chan',
       skype: 'skype:melamory-chan',
@@ -564,7 +553,7 @@ const content = [
   },
   {
     name: 'Mihail Kudryashev',
-    role: t('frontendEngineer'),
+    role: 'frontendEngineer',
     contacts: {
       telegram: 'https://telegram.me/uamedwed',
       skype: 'skype:uamedwed',
@@ -576,7 +565,7 @@ const content = [
   },
   {
     name: 'Ruslan Inozemtcev ',
-    role: t('seniorITDeveloper'),
+    role: 'seniorITDeveloper',
     contacts: {
       telegram: 'https://telegram.me/rusinozemtsev',
       skype: 'skype:rusinozemtsev',
@@ -587,7 +576,7 @@ const content = [
   },
   {
     name: 'Nikita Pisarskii',
-    role: t('projectManager'),
+    role: 'projectManager',
     contacts: {
       telegram: 'https://telegram.me/pisarskiy',
       skype: 'skype:niklops',

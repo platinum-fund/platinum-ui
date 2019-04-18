@@ -1,5 +1,5 @@
 import '../show-more'
-import teamList from './content'
+import getContentByLanguage from './content/getContentByLanguage'
 import socialIcons from './icons/socials'
 import flagIcons from './icons/flags'
 
@@ -45,15 +45,18 @@ const team = list => `
   </div>
 `
 
-const markup = `
-  <show-more>
-    <div slot="preview">
-      ${team(teamList.slice(0, 12))}
-    </div>
-    <div slot="rest">
-      ${team(teamList.slice(12))}
-    </div>
-  </show-more>
-`
+const getMarkupByLanguage = language => {
+  const teamList = getContentByLanguage(language)
+  return `
+    <show-more>
+      <div slot="preview">
+        ${team(teamList.slice(0, 12))}
+      </div>
+      <div slot="rest">
+        ${team(teamList.slice(12))}
+      </div>
+    </show-more>
+  `
+}
 
-export default markup
+export default getMarkupByLanguage

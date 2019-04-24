@@ -2,7 +2,7 @@ import content from './content'
 import translations from './translations'
 
 function getContentByLanguage(language) {
-  const translation = translations[language]
+  const translation = translations[language] || {}
   const fallbackTranslation = translations['en']
 
   return content.map(item => {

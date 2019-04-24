@@ -552,7 +552,7 @@ const content = [
     photo: require('./photos/anna-leshova.jpg')
   },
   {
-    name: 'Mihail Kudryashev',
+    name: 'Mikhail Kudryashev',
     role: 'frontendEngineer',
     contacts: {
       telegram: 'https://telegram.me/uamedwed',
@@ -561,7 +561,7 @@ const content = [
       github: 'https://github.com/uamedwed'
     },
     country: 'Russia',
-    photo: require('./photos/mihail-kudryashev---simferopol.jpg')
+    photo: require('./photos/mikhail-kudryashev.png')
   },
   {
     name: 'Ruslan Inozemtcev ',

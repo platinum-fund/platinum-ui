@@ -48,7 +48,7 @@ const team = list => `
 const getMarkupByLanguage = language => {
   const teamList = getContentByLanguage(language)
   return `
-    <show-more>
+    <show-more language="${language}">
       <div slot="preview">
         ${team(teamList.slice(0, 12))}
       </div>

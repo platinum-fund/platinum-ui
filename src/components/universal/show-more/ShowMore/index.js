@@ -6,20 +6,22 @@ import removeEventListeners from './listeners/removeEventListeners'
 import attachEventListeners from './listeners/attachEventListeners'
 import toggle from './methods/toggle'
 import toggleVisibility from './visual/toggleVisibility'
+import updateMarkup from './methods/updateMarkup'
 
 class ShowMore extends HTMLElement {
   constructor() {
     super()
-    const shadow = this.attachShadow({ mode: 'open' })
-    shadow.appendChild(template.content.cloneNode(true))
+    this.shadow = this.attachShadow({ mode: 'open' })
+    this.shadow.appendChild(template.content.cloneNode(true))
   }
 
   static get observedAttributes() {
-    return ['open']
+    return ['open', 'language']
   }
 }
 
 ShowMore.prototype.toggleVisibility = toggleVisibility
+ShowMore.prototype.updateMarkup = updateMarkup
 ShowMore.prototype.toggle = toggle
 ShowMore.prototype.attachEventListeners = attachEventListeners
 ShowMore.prototype.removeEventListeners = removeEventListeners

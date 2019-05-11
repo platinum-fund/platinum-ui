@@ -33,5 +33,12 @@
   "japan": "日本",
   "newZealand": "新西兰",
   "moldova": "摩尔多瓦",
-  "uzbekistan": "乌兹别克斯坦"
+  "uzbekistan": "乌兹别克斯坦",
+  "headOfLegal": "法律部门负责人",
+  "salesSupport": "销售/支持",
+  "saleExecutive/ListingManager": "销售主管/上市经理",
+  "sMMManager": "SMM-经理",
+  "assistantHR": "助理人力资源",
+  "backEndDeveloperSupport": "后端开发人员，支持",
+  "affiliateMarketing": "联盟营销负责人"
 }

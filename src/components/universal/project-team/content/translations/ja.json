@@ -33,5 +33,12 @@
   "japan": "日本",
   "newZealand": "ニュージーランド",
   "moldova": "モルドバ",
-  "uzbekistan": "ウズベキスタン"
+  "uzbekistan": "ウズベキスタン",
+  "headOfLegal": "法務部部長",
+  "salesSupport": "営業/サポート",
+  "saleExecutive/ListingManager": "営業/上場担当",
+  "sMMManager": "SMMマネージャー",
+  "assistantHR": "人事部アシスタント",
+  "backEndDeveloperSupport": "バックエンド開発者・サポート",
+  "affiliateMarketing": "アフィリエイトマーケティング部部長"
 }

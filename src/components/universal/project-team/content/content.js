@@ -12,17 +12,6 @@ const content = [
     photo: require('./photos/anton-dzyatkovskiy.jpg')
   },
   {
-    name: 'Pavel Bogush',
-    role: 'deputyOfCOO',
-    contacts: {
-      telegram: 'https://telegram.me/NewHappyDay',
-      skype: 'skype:pepel_2',
-      linkedIn: 'https://www.linkedin.com/in/pavel-bogush/'
-    },
-    country: 'Thailand',
-    photo: require('./photos/pavel-bogush.jpg')
-  },
-  {
     name: 'Dan Khomenko',
     role: 'СOFounder',
     contacts: {
@@ -32,17 +21,6 @@ const content = [
     },
     country: 'Australia',
     photo: require('./photos/dan-khomenko.png')
-  },
-  {
-    name: 'Natalia Klemenova',
-    role: 'headOfFinanceDepartment',
-    contacts: {
-      telegram: 'https://telegram.me/nataklemenova',
-      skype: 'skype:tusya-natunec',
-      linkedIn: 'https://www.linkedin.com/in/nata-k-02a79a164/'
-    },
-    country: 'Russia',
-    photo: require('./photos/natalia-klemenova.png')
   },
   {
     name: 'Helena Kondricheva',
@@ -98,17 +76,6 @@ const content = [
     },
     country: 'Ukraine',
     photo: require('./photos/vladimir-hovanskiy.jpg')
-  },
-  {
-    name: 'Dmitrii Skripkin',
-    role: 'affiliateMarketing',
-    contacts: {
-      telegram: 'https://telegram.me/d_skripkin',
-      skype: 'skype:skripkin.ru',
-      linkedIn: ''
-    },
-    country: 'Thailand',
-    photo: require('./photos/dmitrii-skripkin.jpg')
   },
   {
     name: 'Anton Vasiliev ',
